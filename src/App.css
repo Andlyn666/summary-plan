@@ -18,16 +18,23 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 5%;
 }
-
 .App-link {
   color: #61dafb;
 }
 
+.Common-style {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  opacity: 80%;
+}
+
+.Select-style {
+  width: 150px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
